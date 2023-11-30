@@ -1,0 +1,55 @@
+table, td,th{
+
+    border-bottom: 2px solid;
+    border-collapse: collapse;
+    border-color: blueviolet;
+}
+
+table{
+    border-spacing: 100px; 
+    width: 100%;
+    font-size:20px;
+    /* text-align: center; */
+}
+
+caption{
+    padding-bottom: 40px;
+    /* background-color:dodgerblue; */
+    font-size: 30px;
+    
+    /* color: white; */
+   
+}
+
+td,th{
+    padding: 30px;
+    font-size: 20px;
+}
+
+td{
+
+    padding: 20px;
+    font-size: 20px;
+    /* border-color: blueviolet; */
+}
+
+th{
+    background-color:dodgerblue;
+    font-size: 25px;
+    color: white;
+    
+}
+
+tr:nth-child(odd){
+
+    background-color:lightgray;
+}
+
+tr:hover{
+    background-color: darkgrey;
+
+}
+.container{
+    width: 100%;
+    text-align: center;
+}
